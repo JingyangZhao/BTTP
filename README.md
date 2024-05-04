@@ -12,7 +12,7 @@ Our source code is written by c++. When the number of teams in each league satis
 
 -- The 16 teams in the Western Conference are labeled as {1,2,...,16}, and the 16 teams in the Eastern Conference are labeled as {17,18,...,32}.
 
--- The output schedule is displayed by a $2n\times 2n$ matrix, where the $i$-th row with indicates team $t_i$, the $j$-th column indicates the $j$-th day in the schedule, item $t_{i,j}$ (resp., $-t_{i,j}$) on $i$-th row and $j$-th column indicates team $t_i$ play an away (resp., home) game with team $t_{i,j}$.
+-- The output schedule is displayed by a $2n\times 2n$ matrix, where the $i$-th row indicates team $t_i$, the $j$-th column indicates the $j$-th day in the schedule, the item $t_{i,j}$ (resp., $-t_{i,j}$) on the $i$-th row and $j$-th column indicates that team $t_i$ plays an away (resp., home) game with team $t_{i,j}$.
 
 ③ The brute-and-force algorithm for calculating the independent lower bound can be found in GetILB.cpp.
 

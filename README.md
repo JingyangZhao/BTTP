@@ -2,7 +2,7 @@
 
 This code solves the bipartite traveling tournament problem (BTTP).
 
-Our source code is written by c++. When the number of teams satisfies $n = 16$, it can genetate a good schedule for BTTP.
+Our source code is written by c++. When the number of teams in each league satisfies $n = 16$, it can genetate a good schedule for BTTP.
 
 ① The coordinates (latitude, longitude) of home venues of 32 teams (including 16 teams in the Western Conference and 16 teams in the Eastern Conference) are provided in locations.txt.
 

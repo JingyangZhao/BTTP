@@ -1,8 +1,8 @@
 # BTTP
 
-This code solves the bipartite traveling tournament problem (BTTP).
+This code solves the bipartite traveling tournament problem (BTTP) with $n = 16$ heuristically.
 
-Our source code is written by c++. When the number of teams in each league satisfies $n = 16$, it can genetate a good schedule for BTTP.
+Our source code is written by c++.
 
 ① The 3-cycle construction with the swapping heuristics can be found in BTTP_3_cycle.cpp, and the 3-path construction with the swapping heuristics can be found in BTTP_3_path.cpp.
 
